@@ -2,7 +2,7 @@
 
 # Summary
 
-For obttaining file attributes like the last-modified-time or the file-size in Bash scripts the tool
+For obtaining file attributes like the last-modified-time or the file-size in Bash scripts the tool
 */usr/bin/stat* is usually used.  This takes a few milliseconds because */usr/bin/stat* is an
 external program. With this Bash extension the same can be done faster with  built-in commands.
 
