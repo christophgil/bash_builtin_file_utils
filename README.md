@@ -2,7 +2,7 @@
 
 # Summary
 
-For obtaining file attributes like the last-modified-time or the file-size in Bash scripts the tool
+For obtaining file attributes like the last-modified-time or the file-size in Bash scripts the UNIX tool
 */usr/bin/stat* is usually used.  This takes a few milliseconds because */usr/bin/stat* is an
 external program. With this Bash extension the same can be done faster with  built-in commands.
 
@@ -22,5 +22,6 @@ Compile:
 # Usage
 
 The compiled builtins must be loaded once.
+The compile script generates  a script which can be sourced.
 
-    enable -f /home/cgille/compiled/bashbuiltin_file_utils.so
+    source load_this_builtin.sh
