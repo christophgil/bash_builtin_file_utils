@@ -25,3 +25,8 @@ The compiled builtins must be loaded once.
 The compile script generates  a script which can be sourced.
 
     source load_this_builtin.sh
+
+This file contains the list of commands.
+To obtain help for the builtin commands type for example
+
+    help cg_fileSize
